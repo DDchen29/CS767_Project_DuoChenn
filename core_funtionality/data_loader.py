@@ -18,7 +18,7 @@ def normalise_windows(window_data, single_window=False):
     return np.array(normalised_data)
 
 
-class DataLoader():
+class DataLoader:
     """A class for loading and transforming data for the lstm model"""
 
     def __init__(self, filename, split, cols):
